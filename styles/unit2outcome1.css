@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+ 
+
+ .titleHeading {
+    font-family: 'Share Tech', sans-serif;
+    font-size: 90px;
+    background: rgb(189,221,246);
+    text-align: center;
+    padding: 50px;
+    color: rgb(12, 112, 143);;
+}
+
+.logo {
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(61,174,209);;
+    
+}
+
+
+.navbar {
+    background: rgb(61,174,209);
+    display: flex;
+    justify-content: center;
+
+    
+}
+ 
+.navbar a {
+    text-decoration: none;
+    color: rgb(82, 84, 85);
+    padding: 10px 30px 10px 30px;
+    transition: 0.5s;
+    font-weight: 800;
+}
+
+.navbar a:hover {
+    background: rgb(7, 116, 150);
+    color: white;
+}
+
+.intro_title {
+    text-align: center;
+}
+
+
+.title {
+    background: rgb(187, 208, 214);
+    font-size: 18px;
+    color: rgb(241, 131, 57);
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+        /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+    margin: 0px;
+    border: 1px solid white;
+}
+
+
+.modern_business_image {
+    width: 400px;
+}
+
+.unitHeading {
+    text-align: center;
+    margin: 100px;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 4px solid rgb(241, 131, 57);
+    color: rgb(7, 116, 150);
+    font-size: 50px;
+
+}
+
+.content_wrapper {
+    margin: 300px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    overflow: hidden;
+    display: none;
+    background-color: rgba(236, 157, 53, 0.3);
+    padding: 10px;
+}
+
+.content:target {
+    line-height:1.5;
+}
+/* ........... navbar dropdowns ............. */
+
+.dropdown {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    background: none;
+    border: none;
+    transition: 0.2s;
+    color: rgb(88, 87, 87);
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e0dfdf;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    outline: none;
+    border: none;
+    color: rgb(88, 87, 87);
+    cursor: pointer;
+    text-decoration: none;
+    padding: 6px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgb(189,221,246);
+    color: white;
+    transition: 0.3s;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover {
+    background-color: rgb(7, 116, 150);
+    color: white;
+    transition: 0.3s;
+  }
